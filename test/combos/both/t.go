@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/crxprotobuf/protobuf/proto"
+	"github.com/crx666/protobuf/proto"
 )
 
 type T struct {

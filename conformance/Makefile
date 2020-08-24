@@ -49,11 +49,11 @@ test:
 	./test.sh $(PROTOBUF_ROOT)
 
 regenerate:
-	protoc-min-version --version="3.0.0" --proto_path=$(GOPATH)/src:$(GOPATH)/src/github.com/crxprotobuf/protobuf/protobuf:. --gogo_out=\
-	Mgoogle/protobuf/any.proto=github.com/crxprotobuf/protobuf/types,\
-	Mgoogle/protobuf/duration.proto=github.com/crxprotobuf/protobuf/types,\
-	Mgoogle/protobuf/struct.proto=github.com/crxprotobuf/protobuf/types,\
-	Mgoogle/protobuf/timestamp.proto=github.com/crxprotobuf/protobuf/types,\
-	Mgoogle/protobuf/wrappers.proto=github.com/crxprotobuf/protobuf/types,\
-	Mgoogle/protobuf/field_mask.proto=github.com/crxprotobuf/protobuf/types\
+	protoc-min-version --version="3.0.0" --proto_path=$(GOPATH)/src:$(GOPATH)/src/github.com/crx666/protobuf/protobuf:. --gogo_out=\
+	Mgoogle/protobuf/any.proto=github.com/crx666/protobuf/types,\
+	Mgoogle/protobuf/duration.proto=github.com/crx666/protobuf/types,\
+	Mgoogle/protobuf/struct.proto=github.com/crx666/protobuf/types,\
+	Mgoogle/protobuf/timestamp.proto=github.com/crx666/protobuf/types,\
+	Mgoogle/protobuf/wrappers.proto=github.com/crx666/protobuf/types,\
+	Mgoogle/protobuf/field_mask.proto=github.com/crx666/protobuf/types\
 	:. ./internal/conformance_proto/conformance.proto

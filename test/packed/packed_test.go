@@ -1,7 +1,7 @@
 // Protocol Buffers for Go with Gadgets
 //
 // Copyright (c) 2013, The GoGo Authors. All rights reserved.
-// http://github.com/crxprotobuf/protobuf
+// http://github.com/crx666/protobuf
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are
@@ -37,7 +37,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/crxprotobuf/protobuf/proto"
+	"github.com/crx666/protobuf/proto"
 )
 
 func BenchmarkVarintIssue436withCount(b *testing.B) {
@@ -197,7 +197,7 @@ func TestIssue436(t *testing.T) {
 }
 
 /*
-https://github.com/crxprotobuf/protobuf/issues/503
+https://github.com/crx666/protobuf/issues/503
 preallocation was estimating length over all data vs. just that for the given field.
 */
 func TestTestPackedPreallocation(t *testing.T) {
@@ -238,7 +238,7 @@ func TestTestPackedPreallocation(t *testing.T) {
 }
 
 /*
-https://github.com/crxprotobuf/protobuf/issues/detail?id=21
+https://github.com/crx666/protobuf/issues/detail?id=21
 https://developers.google.com/protocol-buffers/docs/proto#options
 In 2.3.0 and later, this change is safe, as parsers for packable fields will always accept both formats,
 */

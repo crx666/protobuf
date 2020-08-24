@@ -1,7 +1,7 @@
 // Protocol Buffers for Go with Gadgets
 //
 // Copyright (c) 2016, The GoGo Authors. All rights reserved.
-// http://github.com/crxprotobuf/protobuf
+// http://github.com/crx666/protobuf
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are
@@ -33,8 +33,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/crxprotobuf/protobuf/jsonpb"
-	"github.com/crxprotobuf/protobuf/proto"
+	"github.com/crx666/protobuf/jsonpb"
+	"github.com/crx666/protobuf/proto"
 )
 
 func TestFullCircleProtoToStd(t *testing.T) {

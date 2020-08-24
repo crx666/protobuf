@@ -3,7 +3,7 @@ package typedeclall
 import (
 	"encoding/json"
 
-	"github.com/crxprotobuf/protobuf/jsonpb"
+	"github.com/crx666/protobuf/jsonpb"
 )
 
 type Dropped struct {

@@ -45,9 +45,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/crxprotobuf/protobuf/proto"
-	pb3 "github.com/crxprotobuf/protobuf/proto/proto3_proto"
-	. "github.com/crxprotobuf/protobuf/proto/test_proto"
+	. "github.com/crx666/protobuf/proto"
+	pb3 "github.com/crx666/protobuf/proto/proto3_proto"
+	. "github.com/crx666/protobuf/proto/test_proto"
 )
 
 var globalO *Buffer

@@ -1,4 +1,4 @@
-module github.com/crxprotobuf/protobuf
+module github.com/crx666/protobuf
 
 go 1.14
 

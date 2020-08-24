@@ -1,7 +1,7 @@
 // Protocol Buffers for Go with Gadgets
 //
 // Copyright (c) 2013, The GoGo Authors. All rights reserved.
-// http://github.com/crxprotobuf/protobuf
+// http://github.com/crx666/protobuf
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are
@@ -57,11 +57,11 @@ And benchmarks given it is enabled using one of the following extensions:
 
 Let us look at:
 
-  github.com/crxprotobuf/protobuf/test/example/example.proto
+  github.com/crx666/protobuf/test/example/example.proto
 
 Btw all the output can be seen at:
 
-  github.com/crxprotobuf/protobuf/test/example/*
+  github.com/crx666/protobuf/test/example/*
 
 The following message:
 
@@ -70,7 +70,7 @@ option (gogoproto.marshaler_all) = true;
 message B {
 	option (gogoproto.description) = true;
 	optional A A = 1 [(gogoproto.nullable) = false, (gogoproto.embed) = true];
-	repeated bytes G = 2 [(gogoproto.customtype) = "github.com/crxprotobuf/protobuf/test/custom.Uint128", (gogoproto.nullable) = false];
+	repeated bytes G = 2 [(gogoproto.customtype) = "github.com/crx666/protobuf/test/custom.Uint128", (gogoproto.nullable) = false];
 }
 
 given to the marshalto plugin, will generate the following code:
@@ -139,11 +139,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/crxprotobuf/protobuf/gogoproto"
-	"github.com/crxprotobuf/protobuf/proto"
-	descriptor "github.com/crxprotobuf/protobuf/protoc-gen-gogo/descriptor"
-	"github.com/crxprotobuf/protobuf/protoc-gen-gogo/generator"
-	"github.com/crxprotobuf/protobuf/vanity"
+	"github.com/crx666/protobuf/gogoproto"
+	"github.com/crx666/protobuf/proto"
+	descriptor "github.com/crx666/protobuf/protoc-gen-gogo/descriptor"
+	"github.com/crx666/protobuf/protoc-gen-gogo/generator"
+	"github.com/crx666/protobuf/vanity"
 )
 
 type NumGen interface {
@@ -1215,14 +1215,14 @@ func (p *marshalto) Generate(file *generator.FileDescriptor) {
 	p.localName = generator.FileName(file)
 
 	p.mathPkg = p.NewImport("math")
-	p.sortKeysPkg = p.NewImport("github.com/crxprotobuf/protobuf/sortkeys")
-	p.protoPkg = p.NewImport("github.com/crxprotobuf/protobuf/proto")
+	p.sortKeysPkg = p.NewImport("github.com/crx666/protobuf/sortkeys")
+	p.protoPkg = p.NewImport("github.com/crx666/protobuf/proto")
 	if !gogoproto.ImportsGoGoProto(file.FileDescriptorProto) {
 		p.protoPkg = p.NewImport("github.com/golang/protobuf/proto")
 	}
 	p.errorsPkg = p.NewImport("errors")
 	p.binaryPkg = p.NewImport("encoding/binary")
-	p.typesPkg = p.NewImport("github.com/crxprotobuf/protobuf/types")
+	p.typesPkg = p.NewImport("github.com/crx666/protobuf/types")
 
 	for _, message := range file.Messages() {
 		if message.DescriptorProto.GetOptions().GetMapEntry() {

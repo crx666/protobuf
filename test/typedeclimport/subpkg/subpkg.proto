@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package subpkg;
 
-import "github.com/crxprotobuf/protobuf/gogoproto/gogo.proto";
+import "github.com/crx666/protobuf/gogoproto/gogo.proto";
 
 option (gogoproto.marshaler_all) = true;
 option (gogoproto.unmarshaler_all) = true;

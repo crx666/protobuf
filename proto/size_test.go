@@ -36,9 +36,9 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/crxprotobuf/protobuf/proto"
-	proto3pb "github.com/crxprotobuf/protobuf/proto/proto3_proto"
-	pb "github.com/crxprotobuf/protobuf/proto/test_proto"
+	. "github.com/crx666/protobuf/proto"
+	proto3pb "github.com/crx666/protobuf/proto/proto3_proto"
+	pb "github.com/crx666/protobuf/proto/test_proto"
 )
 
 var messageWithExtension1 = &pb.MyMessage{Count: Int32(7)}

@@ -34,7 +34,7 @@ package generator
 import (
 	"testing"
 
-	"github.com/crxprotobuf/protobuf/protoc-gen-gogo/descriptor"
+	"github.com/crx666/protobuf/protoc-gen-gogo/descriptor"
 )
 
 func TestCamelCase(t *testing.T) {

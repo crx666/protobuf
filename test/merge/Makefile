@@ -1,5 +1,5 @@
 regenerate:
-	go install github.com/crxprotobuf/protobuf/protoc-min-version
-	go install github.com/crxprotobuf/protobuf/protoc-gen-gogo
+	go install github.com/crx666/protobuf/protoc-min-version
+	go install github.com/crx666/protobuf/protoc-gen-gogo
 	protoc-min-version --version="3.0.0" --gogo_out=. \
 	--proto_path=../../../../../:../../protobuf/:. merge.proto

@@ -6,10 +6,10 @@ package types
 import (
 	bytes "bytes"
 	fmt "fmt"
-	_ "github.com/crxprotobuf/protobuf/gogoproto"
-	proto "github.com/crxprotobuf/protobuf/proto"
-	github_com_gogo_protobuf_types "github.com/crxprotobuf/protobuf/types"
-	types "github.com/crxprotobuf/protobuf/types"
+	_ "github.com/crx666/protobuf/gogoproto"
+	proto "github.com/crx666/protobuf/proto"
+	github_com_gogo_protobuf_types "github.com/crx666/protobuf/types"
+	types "github.com/crx666/protobuf/types"
 	math "math"
 	time "time"
 )

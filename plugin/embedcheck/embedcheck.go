@@ -1,7 +1,7 @@
 // Protocol Buffers for Go with Gadgets
 //
 // Copyright (c) 2013, The GoGo Authors. All rights reserved.
-// http://github.com/crxprotobuf/protobuf
+// http://github.com/crx666/protobuf
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are
@@ -40,7 +40,7 @@ It is enabled by the following extensions:
 
 For incorrect usage of embed with tests see:
 
-  github.com/crxprotobuf/protobuf/test/embedconflict
+  github.com/crx666/protobuf/test/embedconflict
 
 */
 package embedcheck
@@ -49,8 +49,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/crxprotobuf/protobuf/gogoproto"
-	"github.com/crxprotobuf/protobuf/protoc-gen-gogo/generator"
+	"github.com/crx666/protobuf/gogoproto"
+	"github.com/crx666/protobuf/protoc-gen-gogo/generator"
 )
 
 type plugin struct {

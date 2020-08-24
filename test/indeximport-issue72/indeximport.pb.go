@@ -6,9 +6,9 @@ package indeximport
 import (
 	bytes "bytes"
 	fmt "fmt"
-	_ "github.com/crxprotobuf/protobuf/gogoproto"
-	proto "github.com/crxprotobuf/protobuf/proto"
-	index "github.com/crxprotobuf/protobuf/test/indeximport-issue72/index"
+	_ "github.com/crx666/protobuf/gogoproto"
+	proto "github.com/crx666/protobuf/proto"
+	index "github.com/crx666/protobuf/test/indeximport-issue72/index"
 	io "io"
 	math "math"
 )

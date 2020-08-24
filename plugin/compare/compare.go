@@ -1,7 +1,7 @@
 // Protocol Buffers for Go with Gadgets
 //
 // Copyright (c) 2013, The GoGo Authors. All rights reserved.
-// http://github.com/crxprotobuf/protobuf
+// http://github.com/crx666/protobuf
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are
@@ -29,11 +29,11 @@
 package compare
 
 import (
-	"github.com/crxprotobuf/protobuf/gogoproto"
-	"github.com/crxprotobuf/protobuf/proto"
-	descriptor "github.com/crxprotobuf/protobuf/protoc-gen-gogo/descriptor"
-	"github.com/crxprotobuf/protobuf/protoc-gen-gogo/generator"
-	"github.com/crxprotobuf/protobuf/vanity"
+	"github.com/crx666/protobuf/gogoproto"
+	"github.com/crx666/protobuf/proto"
+	descriptor "github.com/crx666/protobuf/protoc-gen-gogo/descriptor"
+	"github.com/crx666/protobuf/protoc-gen-gogo/generator"
+	"github.com/crx666/protobuf/vanity"
 )
 
 type plugin struct {
@@ -61,8 +61,8 @@ func (p *plugin) Generate(file *generator.FileDescriptor) {
 	p.PluginImports = generator.NewPluginImports(p.Generator)
 	p.fmtPkg = p.NewImport("fmt")
 	p.bytesPkg = p.NewImport("bytes")
-	p.sortkeysPkg = p.NewImport("github.com/crxprotobuf/protobuf/sortkeys")
-	p.protoPkg = p.NewImport("github.com/crxprotobuf/protobuf/proto")
+	p.sortkeysPkg = p.NewImport("github.com/crx666/protobuf/sortkeys")
+	p.protoPkg = p.NewImport("github.com/crx666/protobuf/proto")
 
 	for _, msg := range file.Messages() {
 		if msg.DescriptorProto.GetOptions().GetMapEntry() {

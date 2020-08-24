@@ -6,9 +6,9 @@ package events
 import (
 	bytes "bytes"
 	fmt "fmt"
-	_ "github.com/crxprotobuf/protobuf/gogoproto"
-	proto "github.com/crxprotobuf/protobuf/proto"
-	issue312 "github.com/crxprotobuf/protobuf/test/issue312"
+	_ "github.com/crx666/protobuf/gogoproto"
+	proto "github.com/crx666/protobuf/proto"
+	issue312 "github.com/crx666/protobuf/test/issue312"
 	math "math"
 	reflect "reflect"
 	strings "strings"

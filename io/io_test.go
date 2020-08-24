@@ -1,7 +1,7 @@
 // Protocol Buffers for Go with Gadgets
 //
 // Copyright (c) 2013, The GoGo Authors. All rights reserved.
-// http://github.com/crxprotobuf/protobuf
+// http://github.com/crx666/protobuf
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are
@@ -31,8 +31,8 @@ package io_test
 import (
 	"bytes"
 	"encoding/binary"
-	"github.com/crxprotobuf/protobuf/io"
-	"github.com/crxprotobuf/protobuf/test"
+	"github.com/crx666/protobuf/io"
+	"github.com/crx666/protobuf/test"
 	goio "io"
 	"math/rand"
 	"testing"

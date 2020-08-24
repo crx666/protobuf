@@ -1,7 +1,7 @@
 // Protocol Buffers for Go with Gadgets
 //
 // Copyright (c) 2013, The GoGo Authors. All rights reserved.
-// http://github.com/crxprotobuf/protobuf
+// http://github.com/crx666/protobuf
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are
@@ -29,9 +29,9 @@
 package size
 
 import (
-	"github.com/crxprotobuf/protobuf/gogoproto"
-	"github.com/crxprotobuf/protobuf/plugin/testgen"
-	"github.com/crxprotobuf/protobuf/protoc-gen-gogo/generator"
+	"github.com/crx666/protobuf/gogoproto"
+	"github.com/crx666/protobuf/plugin/testgen"
+	"github.com/crx666/protobuf/protoc-gen-gogo/generator"
 )
 
 type test struct {
@@ -47,7 +47,7 @@ func (p *test) Generate(imports generator.PluginImports, file *generator.FileDes
 	randPkg := imports.NewImport("math/rand")
 	timePkg := imports.NewImport("time")
 	testingPkg := imports.NewImport("testing")
-	protoPkg := imports.NewImport("github.com/crxprotobuf/protobuf/proto")
+	protoPkg := imports.NewImport("github.com/crx666/protobuf/proto")
 	if !gogoproto.ImportsGoGoProto(file.FileDescriptorProto) {
 		protoPkg = imports.NewImport("github.com/golang/protobuf/proto")
 	}

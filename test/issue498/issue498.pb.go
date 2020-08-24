@@ -3,14 +3,14 @@
 
 package issue449
 
-import proto "github.com/crxprotobuf/protobuf/proto"
+import proto "github.com/crx666/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "github.com/crxprotobuf/protobuf/gogoproto"
+import _ "github.com/crx666/protobuf/gogoproto"
 
 import bytes "bytes"
 
-import github_com_gogo_protobuf_proto "github.com/crxprotobuf/protobuf/proto"
+import github_com_gogo_protobuf_proto "github.com/crx666/protobuf/proto"
 
 import io "io"
 

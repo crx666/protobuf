@@ -36,8 +36,8 @@ package proto_test
 import (
 	"testing"
 
-	"github.com/crxprotobuf/protobuf/proto"
-	tpb "github.com/crxprotobuf/protobuf/proto/proto3_proto"
+	"github.com/crx666/protobuf/proto"
+	tpb "github.com/crx666/protobuf/proto/proto3_proto"
 )
 
 var msgBlackhole = new(tpb.Message)

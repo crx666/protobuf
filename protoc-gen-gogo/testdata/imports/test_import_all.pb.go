@@ -5,11 +5,11 @@ package imports
 
 import (
 	fmt "fmt"
-	proto "github.com/crxprotobuf/protobuf/proto"
-	fmt1 "github.com/crxprotobuf/protobuf/protoc-gen-gogo/testdata/imports/fmt"
-	test_a_1 "github.com/crxprotobuf/protobuf/protoc-gen-gogo/testdata/imports/test_a_1"
-	test_a_2 "github.com/crxprotobuf/protobuf/protoc-gen-gogo/testdata/imports/test_a_2"
-	test_b_1 "github.com/crxprotobuf/protobuf/protoc-gen-gogo/testdata/imports/test_b_1"
+	proto "github.com/crx666/protobuf/proto"
+	fmt1 "github.com/crx666/protobuf/protoc-gen-gogo/testdata/imports/fmt"
+	test_a_1 "github.com/crx666/protobuf/protoc-gen-gogo/testdata/imports/test_a_1"
+	test_a_2 "github.com/crx666/protobuf/protoc-gen-gogo/testdata/imports/test_a_2"
+	test_b_1 "github.com/crx666/protobuf/protoc-gen-gogo/testdata/imports/test_b_1"
 	math "math"
 )
 

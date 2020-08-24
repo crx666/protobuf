@@ -3,7 +3,7 @@ package merge
 import (
 	"testing"
 
-	"github.com/crxprotobuf/protobuf/proto"
+	"github.com/crx666/protobuf/proto"
 )
 
 func TestClone1(t *testing.T) {

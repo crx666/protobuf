@@ -5,8 +5,8 @@ package import_public
 
 import (
 	fmt "fmt"
-	proto "github.com/crxprotobuf/protobuf/proto"
-	sub "github.com/crxprotobuf/protobuf/protoc-gen-gogo/testdata/import_public/sub"
+	proto "github.com/crx666/protobuf/proto"
+	sub "github.com/crx666/protobuf/protoc-gen-gogo/testdata/import_public/sub"
 	math "math"
 )
 

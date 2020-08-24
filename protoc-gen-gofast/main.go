@@ -1,7 +1,7 @@
 // Protocol Buffers for Go with Gadgets
 //
 // Copyright (c) 2015, The GoGo Authors. All rights reserved.
-// http://github.com/crxprotobuf/protobuf
+// http://github.com/crx666/protobuf
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are
@@ -29,8 +29,8 @@
 package main
 
 import (
-	"github.com/crxprotobuf/protobuf/vanity"
-	"github.com/crxprotobuf/protobuf/vanity/command"
+	"github.com/crx666/protobuf/vanity"
+	"github.com/crx666/protobuf/vanity/command"
 )
 
 func main() {

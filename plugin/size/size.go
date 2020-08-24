@@ -1,7 +1,7 @@
 // Protocol Buffers for Go with Gadgets
 //
 // Copyright (c) 2013, The GoGo Authors. All rights reserved.
-// http://github.com/crxprotobuf/protobuf
+// http://github.com/crx666/protobuf
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are
@@ -50,11 +50,11 @@ And a benchmark given it is enabled using one of the following extensions:
 
 Let us look at:
 
-  github.com/crxprotobuf/protobuf/test/example/example.proto
+  github.com/crx666/protobuf/test/example/example.proto
 
 Btw all the output can be seen at:
 
-  github.com/crxprotobuf/protobuf/test/example/*
+  github.com/crx666/protobuf/test/example/*
 
 The following message:
 
@@ -63,7 +63,7 @@ The following message:
   message B {
 	option (gogoproto.description) = true;
 	optional A A = 1 [(gogoproto.nullable) = false, (gogoproto.embed) = true];
-	repeated bytes G = 2 [(gogoproto.customtype) = "github.com/crxprotobuf/protobuf/test/custom.Uint128", (gogoproto.nullable) = false];
+	repeated bytes G = 2 [(gogoproto.customtype) = "github.com/crx666/protobuf/test/custom.Uint128", (gogoproto.nullable) = false];
   }
 
 given to the size plugin, will generate the following code:
@@ -128,11 +128,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/crxprotobuf/protobuf/gogoproto"
-	"github.com/crxprotobuf/protobuf/proto"
-	descriptor "github.com/crxprotobuf/protobuf/protoc-gen-gogo/descriptor"
-	"github.com/crxprotobuf/protobuf/protoc-gen-gogo/generator"
-	"github.com/crxprotobuf/protobuf/vanity"
+	"github.com/crx666/protobuf/gogoproto"
+	"github.com/crx666/protobuf/proto"
+	descriptor "github.com/crx666/protobuf/protoc-gen-gogo/descriptor"
+	"github.com/crx666/protobuf/protoc-gen-gogo/generator"
+	"github.com/crx666/protobuf/vanity"
 )
 
 type size struct {
@@ -587,8 +587,8 @@ func (p *size) Generate(file *generator.FileDescriptor) {
 	p.PluginImports = generator.NewPluginImports(p.Generator)
 	p.atleastOne = false
 	p.localName = generator.FileName(file)
-	p.typesPkg = p.NewImport("github.com/crxprotobuf/protobuf/types")
-	protoPkg := p.NewImport("github.com/crxprotobuf/protobuf/proto")
+	p.typesPkg = p.NewImport("github.com/crx666/protobuf/types")
+	protoPkg := p.NewImport("github.com/crx666/protobuf/proto")
 	if !gogoproto.ImportsGoGoProto(file.FileDescriptorProto) {
 		protoPkg = p.NewImport("github.com/golang/protobuf/proto")
 	}

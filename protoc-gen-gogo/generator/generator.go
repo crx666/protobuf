@@ -1,7 +1,7 @@
 // Protocol Buffers for Go with Gadgets
 //
 // Copyright (c) 2013, The GoGo Authors. All rights reserved.
-// http://github.com/crxprotobuf/protobuf
+// http://github.com/crx666/protobuf
 //
 // Go support for Protocol Buffers - Google's data interchange format
 //
@@ -62,11 +62,11 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/crxprotobuf/protobuf/gogoproto"
-	"github.com/crxprotobuf/protobuf/proto"
-	descriptor "github.com/crxprotobuf/protobuf/protoc-gen-gogo/descriptor"
-	"github.com/crxprotobuf/protobuf/protoc-gen-gogo/generator/internal/remap"
-	plugin "github.com/crxprotobuf/protobuf/protoc-gen-gogo/plugin"
+	"github.com/crx666/protobuf/gogoproto"
+	"github.com/crx666/protobuf/proto"
+	descriptor "github.com/crx666/protobuf/protoc-gen-gogo/descriptor"
+	"github.com/crx666/protobuf/protoc-gen-gogo/generator/internal/remap"
+	plugin "github.com/crx666/protobuf/protoc-gen-gogo/plugin"
 )
 
 // generatedCodeVersion indicates a version of the generated code.
@@ -1405,7 +1405,7 @@ func (g *Generator) generateImports() {
 	g.PrintImport(GoPackageName(g.Pkg["fmt"]), "fmt")
 	g.PrintImport(GoPackageName(g.Pkg["math"]), "math")
 	if gogoproto.ImportsGoGoProto(g.file.FileDescriptorProto) {
-		g.PrintImport(GoPackageName(g.Pkg["proto"]), GoImportPath(g.ImportPrefix)+GoImportPath("github.com/crxprotobuf/protobuf/proto"))
+		g.PrintImport(GoPackageName(g.Pkg["proto"]), GoImportPath(g.ImportPrefix)+GoImportPath("github.com/crx666/protobuf/proto"))
 		if gogoproto.RegistersGolangProto(g.file.FileDescriptorProto) {
 			g.PrintImport(GoPackageName(g.Pkg["golang_proto"]), GoImportPath(g.ImportPrefix)+GoImportPath("github.com/golang/protobuf/proto"))
 		}

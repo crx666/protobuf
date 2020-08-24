@@ -5,7 +5,7 @@ package fmt
 
 import (
 	fmt "fmt"
-	proto "github.com/crxprotobuf/protobuf/proto"
+	proto "github.com/crx666/protobuf/proto"
 	math "math"
 )
 

@@ -36,7 +36,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/crxprotobuf/protobuf/proto"
+	"github.com/crx666/protobuf/proto"
 )
 
 const (

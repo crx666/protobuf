@@ -1,7 +1,7 @@
 // Protocol Buffers for Go with Gadgets
 //
 // Copyright (c) 2013, The GoGo Authors. All rights reserved.
-// http://github.com/crxprotobuf/protobuf
+// http://github.com/crx666/protobuf
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are
@@ -38,8 +38,8 @@ package oneofcheck
 
 import (
 	"fmt"
-	"github.com/crxprotobuf/protobuf/gogoproto"
-	"github.com/crxprotobuf/protobuf/protoc-gen-gogo/generator"
+	"github.com/crx666/protobuf/gogoproto"
+	"github.com/crx666/protobuf/protoc-gen-gogo/generator"
 	"os"
 )
 

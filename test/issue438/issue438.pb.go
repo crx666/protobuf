@@ -5,9 +5,9 @@ package issue438
 
 import (
 	fmt "fmt"
-	_ "github.com/crxprotobuf/protobuf/gogoproto"
-	proto "github.com/crxprotobuf/protobuf/proto"
-	types "github.com/crxprotobuf/protobuf/types"
+	_ "github.com/crx666/protobuf/gogoproto"
+	proto "github.com/crx666/protobuf/proto"
+	types "github.com/crx666/protobuf/types"
 	math "math"
 )
 

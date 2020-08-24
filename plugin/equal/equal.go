@@ -1,7 +1,7 @@
 // Protocol Buffers for Go with Gadgets
 //
 // Copyright (c) 2013, The GoGo Authors. All rights reserved.
-// http://github.com/crxprotobuf/protobuf
+// http://github.com/crx666/protobuf
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are
@@ -50,11 +50,11 @@ The equal plugin also generates a test given it is enabled using one of the foll
 
 Let us look at:
 
-  github.com/crxprotobuf/protobuf/test/example/example.proto
+  github.com/crx666/protobuf/test/example/example.proto
 
 Btw all the output can be seen at:
 
-  github.com/crxprotobuf/protobuf/test/example/*
+  github.com/crx666/protobuf/test/example/*
 
 The following message:
 
@@ -63,7 +63,7 @@ The following message:
 
   message B {
 	optional A A = 1 [(gogoproto.nullable) = false, (gogoproto.embed) = true];
-	repeated bytes G = 2 [(gogoproto.customtype) = "github.com/crxprotobuf/protobuf/test/custom.Uint128", (gogoproto.nullable) = false];
+	repeated bytes G = 2 [(gogoproto.customtype) = "github.com/crx666/protobuf/test/custom.Uint128", (gogoproto.nullable) = false];
   }
 
 given to the equal plugin, will generate the following code:
@@ -157,11 +157,11 @@ and the following test code:
 package equal
 
 import (
-	"github.com/crxprotobuf/protobuf/gogoproto"
-	"github.com/crxprotobuf/protobuf/proto"
-	descriptor "github.com/crxprotobuf/protobuf/protoc-gen-gogo/descriptor"
-	"github.com/crxprotobuf/protobuf/protoc-gen-gogo/generator"
-	"github.com/crxprotobuf/protobuf/vanity"
+	"github.com/crx666/protobuf/gogoproto"
+	"github.com/crx666/protobuf/proto"
+	descriptor "github.com/crx666/protobuf/protoc-gen-gogo/descriptor"
+	"github.com/crx666/protobuf/protoc-gen-gogo/generator"
+	"github.com/crx666/protobuf/vanity"
 )
 
 type plugin struct {
@@ -188,7 +188,7 @@ func (p *plugin) Generate(file *generator.FileDescriptor) {
 	p.PluginImports = generator.NewPluginImports(p.Generator)
 	p.fmtPkg = p.NewImport("fmt")
 	p.bytesPkg = p.NewImport("bytes")
-	p.protoPkg = p.NewImport("github.com/crxprotobuf/protobuf/proto")
+	p.protoPkg = p.NewImport("github.com/crx666/protobuf/proto")
 
 	for _, msg := range file.Messages() {
 		if msg.DescriptorProto.GetOptions().GetMapEntry() {

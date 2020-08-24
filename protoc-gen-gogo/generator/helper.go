@@ -1,7 +1,7 @@
 // Protocol Buffers for Go with Gadgets
 //
 // Copyright (c) 2013, The GoGo Authors. All rights reserved.
-// http://github.com/crxprotobuf/protobuf
+// http://github.com/crx666/protobuf
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are
@@ -36,10 +36,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/crxprotobuf/protobuf/gogoproto"
-	"github.com/crxprotobuf/protobuf/proto"
-	descriptor "github.com/crxprotobuf/protobuf/protoc-gen-gogo/descriptor"
-	plugin "github.com/crxprotobuf/protobuf/protoc-gen-gogo/plugin"
+	"github.com/crx666/protobuf/gogoproto"
+	"github.com/crx666/protobuf/proto"
+	descriptor "github.com/crx666/protobuf/protoc-gen-gogo/descriptor"
+	plugin "github.com/crx666/protobuf/protoc-gen-gogo/plugin"
 )
 
 func (d *FileDescriptor) Messages() []*Descriptor {
@@ -450,8 +450,8 @@ func (d *Descriptor) Path() string {
 }
 
 func (g *Generator) useTypes() string {
-	pkg := strings.Map(badToUnderscore, "github.com/crxprotobuf/protobuf/types")
-	g.customImports = append(g.customImports, "github.com/crxprotobuf/protobuf/types")
+	pkg := strings.Map(badToUnderscore, "github.com/crx666/protobuf/types")
+	g.customImports = append(g.customImports, "github.com/crx666/protobuf/types")
 	return pkg
 }
 

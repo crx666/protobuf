@@ -5,8 +5,8 @@ package vanity
 
 import (
 	fmt "fmt"
-	github_com_gogo_protobuf_proto "github.com/crxprotobuf/protobuf/proto"
-	proto "github.com/crxprotobuf/protobuf/proto"
+	github_com_gogo_protobuf_proto "github.com/crx666/protobuf/proto"
+	proto "github.com/crx666/protobuf/proto"
 	io "io"
 	math "math"
 	reflect "reflect"

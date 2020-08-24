@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/crxprotobuf/protobuf/proto"
+	"github.com/crx666/protobuf/proto"
 )
 
 func TestConcurrentTextMarshal(t *testing.T) {

@@ -7,13 +7,13 @@ import (
 	bytes "bytes"
 	compress_gzip "compress/gzip"
 	fmt "fmt"
-	_ "github.com/crxprotobuf/protobuf/gogoproto"
-	github_com_gogo_protobuf_proto "github.com/crxprotobuf/protobuf/proto"
-	proto "github.com/crxprotobuf/protobuf/proto"
-	github_com_gogo_protobuf_protoc_gen_gogo_descriptor "github.com/crxprotobuf/protobuf/protoc-gen-gogo/descriptor"
-	github_com_gogo_protobuf_sortkeys "github.com/crxprotobuf/protobuf/sortkeys"
-	both "github.com/crxprotobuf/protobuf/test/combos/both"
-	github_com_gogo_protobuf_test_custom "github.com/crxprotobuf/protobuf/test/custom"
+	_ "github.com/crx666/protobuf/gogoproto"
+	github_com_gogo_protobuf_proto "github.com/crx666/protobuf/proto"
+	proto "github.com/crx666/protobuf/proto"
+	github_com_gogo_protobuf_protoc_gen_gogo_descriptor "github.com/crx666/protobuf/protoc-gen-gogo/descriptor"
+	github_com_gogo_protobuf_sortkeys "github.com/crx666/protobuf/sortkeys"
+	both "github.com/crx666/protobuf/test/combos/both"
+	github_com_gogo_protobuf_test_custom "github.com/crx666/protobuf/test/custom"
 	io_ioutil "io/ioutil"
 	math "math"
 	reflect "reflect"
@@ -309,8 +309,8 @@ func (m *FloatingPoint) XXX_DiscardUnknown() {
 var xxx_messageInfo_FloatingPoint proto.InternalMessageInfo
 
 type Uint128Pair struct {
-	Left                 github_com_gogo_protobuf_test_custom.Uint128  `protobuf:"bytes,1,opt,name=left,proto3,customtype=github.com/crxprotobuf/protobuf/test/custom.Uint128" json:"left"`
-	Right                *github_com_gogo_protobuf_test_custom.Uint128 `protobuf:"bytes,2,opt,name=right,proto3,customtype=github.com/crxprotobuf/protobuf/test/custom.Uint128" json:"right,omitempty"`
+	Left                 github_com_gogo_protobuf_test_custom.Uint128  `protobuf:"bytes,1,opt,name=left,proto3,customtype=github.com/crx666/protobuf/test/custom.Uint128" json:"left"`
+	Right                *github_com_gogo_protobuf_test_custom.Uint128 `protobuf:"bytes,2,opt,name=right,proto3,customtype=github.com/crx666/protobuf/test/custom.Uint128" json:"right,omitempty"`
 	XXX_NoUnkeyedLiteral struct{}                                      `json:"-"`
 	XXX_unrecognized     []byte                                        `json:"-"`
 	XXX_sizecache        int32                                         `json:"-"`

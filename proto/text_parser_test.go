@@ -36,9 +36,9 @@ import (
 	"math"
 	"testing"
 
-	. "github.com/crxprotobuf/protobuf/proto"
-	proto3pb "github.com/crxprotobuf/protobuf/proto/proto3_proto"
-	. "github.com/crxprotobuf/protobuf/proto/test_proto"
+	. "github.com/crx666/protobuf/proto"
+	proto3pb "github.com/crx666/protobuf/proto/proto3_proto"
+	. "github.com/crx666/protobuf/proto/test_proto"
 )
 
 type UnmarshalTextTest struct {

@@ -1,7 +1,7 @@
 # Protocol Buffers for Go with Gadgets
 #
 # Copyright (c) 2018, The GoGo Authors. All rights reserved.
-# http://github.com/crxprotobuf/protobuf
+# http://github.com/crx666/protobuf
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are
@@ -27,6 +27,6 @@
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 regenerate:
-	go install github.com/crxprotobuf/protobuf/protoc-min-version
+	go install github.com/crx666/protobuf/protoc-min-version
 	protoc-min-version --version="3.0.0" --gogo_out=:. \
 	--proto_path=../../../../../:../../protobuf/:. deterministic.proto

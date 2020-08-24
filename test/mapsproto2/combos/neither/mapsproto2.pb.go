@@ -7,13 +7,13 @@ import (
 	bytes "bytes"
 	compress_gzip "compress/gzip"
 	fmt "fmt"
-	_ "github.com/crxprotobuf/protobuf/gogoproto"
-	github_com_gogo_protobuf_proto "github.com/crxprotobuf/protobuf/proto"
-	proto "github.com/crxprotobuf/protobuf/proto"
-	github_com_gogo_protobuf_protoc_gen_gogo_descriptor "github.com/crxprotobuf/protobuf/protoc-gen-gogo/descriptor"
-	github_com_gogo_protobuf_sortkeys "github.com/crxprotobuf/protobuf/sortkeys"
-	github_com_gogo_protobuf_test "github.com/crxprotobuf/protobuf/test"
-	github_com_gogo_protobuf_test_custom "github.com/crxprotobuf/protobuf/test/custom"
+	_ "github.com/crx666/protobuf/gogoproto"
+	github_com_gogo_protobuf_proto "github.com/crx666/protobuf/proto"
+	proto "github.com/crx666/protobuf/proto"
+	github_com_gogo_protobuf_protoc_gen_gogo_descriptor "github.com/crx666/protobuf/protoc-gen-gogo/descriptor"
+	github_com_gogo_protobuf_sortkeys "github.com/crx666/protobuf/sortkeys"
+	github_com_gogo_protobuf_test "github.com/crx666/protobuf/test"
+	github_com_gogo_protobuf_test_custom "github.com/crx666/protobuf/test/custom"
 	io_ioutil "io/ioutil"
 	math "math"
 	reflect "reflect"
@@ -106,10 +106,10 @@ func (m *FloatingPoint) XXX_DiscardUnknown() {
 var xxx_messageInfo_FloatingPoint proto.InternalMessageInfo
 
 type CustomMap struct {
-	Nullable128S         map[string]*github_com_gogo_protobuf_test_custom.Uint128 `protobuf:"bytes,1,rep,name=Nullable128s,customtype=github.com/crxprotobuf/protobuf/test/custom.Uint128" json:"Nullable128s,omitempty" protobuf_key:"bytes,1,opt,name=key" protobuf_val:"bytes,2,opt,name=value"`
-	Uint128S             map[string]github_com_gogo_protobuf_test_custom.Uint128  `protobuf:"bytes,2,rep,name=Uint128s,customtype=github.com/crxprotobuf/protobuf/test/custom.Uint128" json:"Uint128s" protobuf_key:"bytes,1,opt,name=key" protobuf_val:"bytes,2,opt,name=value"`
-	NullableIds          map[string]*github_com_gogo_protobuf_test.Uuid           `protobuf:"bytes,3,rep,name=NullableIds,customtype=github.com/crxprotobuf/protobuf/test.Uuid" json:"NullableIds,omitempty" protobuf_key:"bytes,1,opt,name=key" protobuf_val:"bytes,2,opt,name=value"`
-	Ids                  map[string]github_com_gogo_protobuf_test.Uuid            `protobuf:"bytes,4,rep,name=Ids,customtype=github.com/crxprotobuf/protobuf/test.Uuid" json:"Ids" protobuf_key:"bytes,1,opt,name=key" protobuf_val:"bytes,2,opt,name=value"`
+	Nullable128S         map[string]*github_com_gogo_protobuf_test_custom.Uint128 `protobuf:"bytes,1,rep,name=Nullable128s,customtype=github.com/crx666/protobuf/test/custom.Uint128" json:"Nullable128s,omitempty" protobuf_key:"bytes,1,opt,name=key" protobuf_val:"bytes,2,opt,name=value"`
+	Uint128S             map[string]github_com_gogo_protobuf_test_custom.Uint128  `protobuf:"bytes,2,rep,name=Uint128s,customtype=github.com/crx666/protobuf/test/custom.Uint128" json:"Uint128s" protobuf_key:"bytes,1,opt,name=key" protobuf_val:"bytes,2,opt,name=value"`
+	NullableIds          map[string]*github_com_gogo_protobuf_test.Uuid           `protobuf:"bytes,3,rep,name=NullableIds,customtype=github.com/crx666/protobuf/test.Uuid" json:"NullableIds,omitempty" protobuf_key:"bytes,1,opt,name=key" protobuf_val:"bytes,2,opt,name=value"`
+	Ids                  map[string]github_com_gogo_protobuf_test.Uuid            `protobuf:"bytes,4,rep,name=Ids,customtype=github.com/crx666/protobuf/test.Uuid" json:"Ids" protobuf_key:"bytes,1,opt,name=key" protobuf_val:"bytes,2,opt,name=value"`
 	XXX_NoUnkeyedLiteral struct{}                                                 `json:"-"`
 	XXX_unrecognized     []byte                                                   `json:"-"`
 	XXX_sizecache        int32                                                    `json:"-"`

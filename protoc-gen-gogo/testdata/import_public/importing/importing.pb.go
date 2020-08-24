@@ -5,9 +5,9 @@ package importing
 
 import (
 	fmt "fmt"
-	proto "github.com/crxprotobuf/protobuf/proto"
-	_ "github.com/crxprotobuf/protobuf/protoc-gen-gogo/testdata/import_public"
-	sub "github.com/crxprotobuf/protobuf/protoc-gen-gogo/testdata/import_public/sub"
+	proto "github.com/crx666/protobuf/proto"
+	_ "github.com/crx666/protobuf/protoc-gen-gogo/testdata/import_public"
+	sub "github.com/crx666/protobuf/protoc-gen-gogo/testdata/import_public/sub"
 	math "math"
 )
 

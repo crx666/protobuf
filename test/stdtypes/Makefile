@@ -1,7 +1,7 @@
 # Protocol Buffers for Go with Gadgets
 #
 # Copyright (c) 2016, The GoGo Authors. All rights reserved.
-# http://github.com/crxprotobuf/protobuf
+# http://github.com/crx666/protobuf
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are
@@ -27,12 +27,12 @@
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 regenerate:
-	go install github.com/crxprotobuf/protobuf/protoc-min-version
-	go install github.com/crxprotobuf/protobuf/protoc-gen-gogo
+	go install github.com/crx666/protobuf/protoc-min-version
+	go install github.com/crx666/protobuf/protoc-gen-gogo
 	protoc-min-version --version="3.0.0" --gogo_out=\
-	Mgoogle/protobuf/duration.proto=github.com/crxprotobuf/protobuf/types,\
-	Mgoogle/protobuf/timestamp.proto=github.com/crxprotobuf/protobuf/types,\
-	Mgoogle/protobuf/wrappers.proto=github.com/crxprotobuf/protobuf/types\
+	Mgoogle/protobuf/duration.proto=github.com/crx666/protobuf/types,\
+	Mgoogle/protobuf/timestamp.proto=github.com/crx666/protobuf/types,\
+	Mgoogle/protobuf/wrappers.proto=github.com/crx666/protobuf/types\
 	:. \
 	--proto_path=../../../../../:../../protobuf/:. stdtypes.proto
 

@@ -49,7 +49,7 @@
 package main
 
 import (
-	"github.com/crxprotobuf/protobuf/vanity/command"
+	"github.com/crx666/protobuf/vanity/command"
 )
 
 func main() {

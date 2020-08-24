@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/crxprotobuf/protobuf/proto"
+	"github.com/crx666/protobuf/proto"
 )
 
 // extractFile extracts a FileDescriptorProto from a gzip'd buffer.
